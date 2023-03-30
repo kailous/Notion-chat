@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script
+          src="https://static.bridger.chat/sdk/v0.2.2/widget.js"
+          type="text/javascript"
+          async
+  ></script>
+  <script type="text/javascript">
+    let widget;
+
+    // initialize widget
+    window.onload = function () {
+      widget = Bridger.initWidget({ id: '164509899414368256' });
+    };
+
+    // remove and destroy widget
+    const onDestroy = () => {
+      widget.destroy();
+    };
+  </script>
+</head>
+<body>
+<div class="bridger-container"></div>
+
+</body>
+</html>
